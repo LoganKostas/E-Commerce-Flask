@@ -1,0 +1,18 @@
+{% extends 'base.html'%}
+
+
+{% block content %}
+
+  <h1>This is the home page!</h1>
+  {% for name in names %}
+      <div class="card" style="width: 18rem;">
+          <img src="https://1000logos.net/wp-content/uploads/2017/11/Atlanta-Falcons-Logo-1966.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-title">{{name}}</h5>
+              <p class="card-text">LIKE A BOSS!</p>
+              <a href="#" class="btn btn-primary">FLASK WEEK</a>
+          </div>
+      </div>
+  {% endfor %}
+  
+{% endblock %}

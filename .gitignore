@@ -1,0 +1,4 @@
+V-Env
+__pycache__
+.env
+migrations
